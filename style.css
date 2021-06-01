@@ -1,0 +1,70 @@
+#apps {
+    width: 1500px;
+    height: 700px;
+    margin-right: 1000px;
+}
+
+.container {
+    text-align: center;
+}
+
+.underline {
+    background-color: black;
+    width: 300px;
+    height: 10px;
+}
+
+img {
+    width: 400px;
+    height: 650px;
+    border-width: 10px;
+    border-color: black;
+    border-style: ridge;
+}
+
+.menu {
+    
+    text-align: center;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    position: fixed;
+    margin-top: 0;
+    right: 200px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    cursor: pointer;
+    background-color: black;
+    width: 100%;
+    
+}
+
+.link {
+    
+    text-align: center;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+    
+html { scroll-behavior: smooth; }
+
+.link:hover {
+    
+    font-size: 35px;
+    
+}
+
+img:hover {
+    transform:scale(0.9);
+}
